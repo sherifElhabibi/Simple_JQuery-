@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <script src="../jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div>
+        <div class="blue">1</div>
+        <div class="red">2</div>
+        <div class="green">3</div>
+        <div class="pink">4</div>
+    </div>
+    <p>The properties of this element </p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <script>
+        $(".blue").click(function(){
+            $("p:eq(1)").text($(this).css("height"))
+            $("p:eq(2)").text($(this).css("width"))
+            $("p:eq(3)").text($(this).css("color"))
+            $("p:eq(4)").text($(this).css("background-color")).css("color","blue")
+        })
+        $(".red").click(function(){
+            $("p:eq(1)").text($(this).css("height"))
+            $("p:eq(2)").text($(this).css("width"))
+            $("p:eq(3)").text($(this).css("color"))
+            $("p:eq(4)").text($(this).css("background-color")).css("color","red")
+        })
+        $(".green").click(function(){
+            $("p:eq(1)").text($(this).css("height"))
+            $("p:eq(2)").text($(this).css("width"))
+            $("p:eq(3)").text($(this).css("color"))
+            $("p:eq(4)").text($(this).css("background-color")).css("color","green")
+        })
+        $(".pink").click(function(){
+            $("p:eq(1)").text($(this).css("height"))
+            $("p:eq(2)").text($(this).css("width"))
+            $("p:eq(3)").text($(this).css("color"))
+            $("p:eq(4)").text($(this).css("background-color")).css("color","pink")
+        })
+    </script>
+</body>
+</html>

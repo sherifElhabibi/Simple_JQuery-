@@ -1,0 +1,33 @@
+
+.blue{
+    background-color: blue;
+    color: black;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+.red{
+    background-color: red;
+    color: gold;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+.green{
+    background-color: green;
+    color: violet;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    text-align: center;
+}
+.pink{
+    background-color: pink;
+    color: burlywood;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    text-align: center;
+}

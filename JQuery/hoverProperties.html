@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <script src="../jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <div>
+        <div class="blue"></div>
+        <div class="red"></div>
+        <div class="green"></div>
+        <div class="pink"></div>
+    </div>
+    <p>This is </p>
+    <p></p>
+    <script>
+        $(".blue").hover(function(){
+            $("p:eq(1)").text($(this).css("background-color")).css("color","blue");
+        })
+        $(".red").hover(function(){
+            $("p:eq(1)").text($(this).css("background-color")).css("color","red");
+        })
+        $(".green").hover(function(){
+            $("p:eq(1)").text($(this).css("background-color")).css("color","green");
+        })
+        $(".pink").hover(function(){
+            $("p:eq(1)").text($(this).css("background-color")).css("color","pink");
+        })
+    </script>
+</body>
+</html>

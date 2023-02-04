@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Color Animation Demo</title>
+  <link rel="stylesheet" href="../jquery-ui-1.13.2/jquery-ui.css">
+  <link rel="stylesheet" href="../tasks/task5.css">
+  <style>
+
+  </style>
+  <script src="../jquery-3.1.1.js"></script>
+  <script src="../jquery-ui-1.13.2/jquery-ui.js"></script>
+</head>
+<body>
+ 
+<div id="elem">&hearts;</div>
+ 
+<script>
+$( "document" ).ready(function() {
+  $("#elem" ).animate({
+    color: "yellow"
+  },2000);
+  $( "#elem" ).animate({
+    color: "blue"
+  },2000);
+  $( "#elem" ).animate({
+    color: "red"
+  },2000);
+  $( "#elem" ).animate({
+    color: "green"
+    
+  },2000);
+});
+</script>
+ 
+</body>
+</html>
+ 
